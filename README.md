@@ -1,3 +1,3 @@
 # cloudresume
 
-[Click here](jineshkumar.com)
+[Cloud Resume Challange](https://jineshkumar.com)

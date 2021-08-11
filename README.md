@@ -2,4 +2,6 @@
 
 # On AWS : https://jineshkumar.com
  
-# On Azure : https://jineshkumar.z13.web.core.windows.net/
+# On Azure : www.jineshkumar.ml
+Azure CDN Profile URL : [jineshkumarCDNendpoint.azureedge.net]
+Storage Account Static Website URL : https://jineshkumar.z13.web.core.windows.net/

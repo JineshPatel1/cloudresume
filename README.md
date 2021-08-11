@@ -2,4 +2,4 @@
 
 # On AWS : https://jineshkumar.com
  
-# On Azure : https://mystaticwebsitestorage.z20.web.core.windows.net/
+# On Azure : https://jineshkumar.z13.web.core.windows.net/

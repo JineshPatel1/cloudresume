@@ -13,5 +13,5 @@ Storage Account Static Website URL : https://jineshkumar.z13.web.core.windows.ne
 CI/CD solution by Github Actions works perfect for my resume. With every commit or change in the Resume, Workflow automatically trigger merge of the updated file to Azure Storeage Blob "$web" (Azure Static Website Location) reflects on CDN (Content Delivery Network) endpoint and updates as well and reflects on Custom Domain with SSL (HTTPS) enabled.
 
 Just needed .yaml workflow file needs to be created in proper format (Resource below)
-This article helped understanding the .yaml file and creation of the workflow. (Easy once you undertand the workflow) 
+This article helped understanding the .yaml file and creation of the workflow. (Easy once you undertand the workflow)  
 https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions

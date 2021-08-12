@@ -3,8 +3,7 @@ name: DeployToAzureStaticWebSite CI
 on:
     push:
         branches: [ main ]
-        paths:
-        - '/'
+        
     pull_request:
         branches: [ main ]
 

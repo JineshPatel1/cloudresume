@@ -4,7 +4,7 @@
 My AWS Deployed Resume is deployed on S3 Bucket > High awailibility achieved using AWS CloudFront distribution which does the https redirects and Route53 hosted zone
 
 
-# On Azure : https://www.jineshkumar.ml  
+# On Azure : https://jineshkumar.ml  
 Azure CDN Profile URL : [jineshkumarCDNendpoint.azureedge.net](https://jineshkumarcdnendpoint.azureedge.net/)  
 Storage Account Static Website URL : https://jineshkumar.z13.web.core.windows.net/
 

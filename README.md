@@ -1,4 +1,4 @@
-# [Cloud Resume Challange](https://cloudresumechallenge.dev/)
+# [Cloud Resume Challange](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
 
 # On AWS : https://jineshkumar.com
  

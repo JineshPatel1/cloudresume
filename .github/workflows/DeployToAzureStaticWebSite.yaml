@@ -2,9 +2,9 @@ name: DeployToAzureStaticWebSite CI
 
 on:
     push:
-        branches: [ master ]
+        branches: [ main ]
     pull_request:
-        branches: [ master ]
+        branches: [ main ]
 
 jobs:
   build:
@@ -31,4 +31,3 @@ jobs:
     - name: logout
       run: |
             az logout
-If: always()

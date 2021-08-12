@@ -1,4 +1,4 @@
-# [Cloud Resume Challange](https://jineshkumar.com)
+# [Cloud Resume Challange](https://cloudresumechallenge.dev/)
 
 # On AWS : https://jineshkumar.com
  

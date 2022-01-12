@@ -1,7 +1,7 @@
 # [Cloud Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
 
 # On AWS : https://jineshkumar.com
-My AWS Deployed Resume is deployed on S3 Bucket > High awailibility achieved using AWS CloudFront distribution which does the https redirects and Route53 hosted zone
+My AWS Deployed Resume is deployed on S3 Bucket > High availibility achieved using AWS CloudFront distribution which does the https redirects and Route53 hosted zone
 
 
 # On Azure : https://www.jineshkumar.ml  

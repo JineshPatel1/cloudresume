@@ -1,33 +1,31 @@
-name: DeployToAzureStaticWebSite CI 
+name: Blob storage website CI
 
 on:
     push:
-        branches: [ main ]
-    pull_request:
         branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:            
+    steps:
     - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
-          creds: ${{ secrets.AZURE_CREDENTIAL }}
-          
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
     - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name jineshkumar -d '$web' -s .
+            az storage blob upload-batch --account-name <STORAGE_ACCOUNT_NAME> --auth-mode key -d '$web' -s .
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name WebsiteCDNProfile --name jineshkumarCDNendpoint --resource-group MyWebsiteRG
-  # Azure logout 
+
+  # Azure logout
     - name: logout
       run: |
             az logout
+      if: always()
